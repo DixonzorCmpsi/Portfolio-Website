@@ -165,6 +165,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
   height: 80vh;
   width: 100vh;
@@ -172,8 +173,10 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 600px;
-  width: 600px;
+  height: 900px;
+    width: 900px;
+    justify-content: center;
+    zoom: 1.33;
   margin: auto 0;
 }
 
@@ -292,6 +295,21 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+#about .section__pic-container video {
+  position: relative;
+  width: auto;
+  max-width: auto;
+  /* Set a max width */
+  margin: 0 auto 2rem;
+  /* Center the video and add some margin */
+  border-radius: 15px;
+  /* Rounded corners */
+  overflow: hidden;
+  /* Ensure the video fits within rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+
 }
 
 .details-container {
