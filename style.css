@@ -6,12 +6,7 @@
   margin: 0;
   padding: 0;
 }
-.background{
-    position: relative;
-    /* background-image: url(".../img/background.jpg"); */
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
-}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -175,47 +170,15 @@ section {
 }
 
 .section__pic-container {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #profile .section__pic-container img {
-    /* display: flex;
-    flex-direction: column; 
-    right: 70%;
-    height: 500px;
-    width: 500px;  */
-    
-    /* background-position: center; */
-    /* flex-direction: column; */
-      height: 500px;
-      width: 900px;
-      zoom: 1.2;
-      justify-content: left;
-      /* margin-right: 10rem; */
-      margin-left: 35rem; 
-      /* padding-left: 30rem;   */
-      border-radius: 50%;   
-      z-index: -1;
-      
-      
-  }
-  
-  
-  
-#profile .section__text {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
   align-self: center;
   text-align: center;
-  flex-direction: column;
-  z-index: 1;
-  /* padding-left: 3rem; */
-  margin-right: 20rem;
-  padding-right: 30rem;
-  margin-bottom: 7rem;
-  zoom: 1.3;
-  
 }
 
 .section__text p {
@@ -241,7 +204,6 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
-  
 }
 
 /* ICONS */
@@ -322,7 +284,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 50%;
+  border-radius: 2rem;
 }
 
 .arrow {
@@ -337,27 +299,19 @@ section {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(28, 13, 13);
+  border-color: rgb(163, 163, 163);
   text-align: center;
 }
-.profile{
-  border-radius: 50%;
-}
+
 .section-container {
   gap: 4rem;
   height: 80%;
 }
 
-#about .section__pic-container video{
-  display: flex;
-/* background-position: center; */
-  height: 500px;
+.section__pic-container {
+  height: 400px;
   width: 400px;
-  zoom: 1.4;
-  padding-right: 1rem;
   margin: auto 0;
-  bottom: 40rem;
-  padding-top: 2rem;
 }
 
 /* EXPERIENCE SECTION */
@@ -375,7 +329,7 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   flex-direction: column;
 }
 
